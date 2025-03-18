@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(164, 167, 167);
+        }
+
+        thead{
+            background-color: rgb(117, 112, 112) ;
+        }
+
+        tfoot{
+            background-color: rgba(71, 64, 64, 0.801);
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color:rgb(117, 112, 112)            ;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: rgba(199, 199, 199, 0.642);
+        }
+
+        /* 2n-1/odd= par
+        2n/even= impar
+        */
+
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        uso de tabelas grandes
+    </h1>
+    <!-- anatomeia para tabelas grandes 
+     TABLE
+      CAPTION
+      THEAD
+        TR,TD,TH
+      TBODY
+        TR,TD,TH
+      TFOOT
+        TR,TD,TH  
+    -->
+        <TAble>
+            <caption>População das Uinidades Federativas</caption>
+            <thead>
+                <tr>
+                    <th scope="col">estado</th>
+                    <th scope="col" style="width:100px;">população</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São paulo</td>
+                    <td class="num">45.919 049</td>
+                </tr>
+                <tr>
+                    <td>
+                        Minas Gerais
+                    </td>
+                    <td class="num">
+                        21.168 791
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rio de janeiro</td>
+                    <td class="num">17.264 913</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="num">14.873 064</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11.433 957</td>
+                </tr>
+                <tr>
+                    <td>Rio Gande do Sul</td>
+                    <td class="num">11.377 239</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Total de habitantes</th>
+                    <td class="num">0000</td>
+                </tr>
+            </tfoot>
+        </TAble>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sint temporibus commodi, cupiditate voluptate error voluptatum dolores, quo dolor beatae explicabo impedit delectus perferendis! Totam nemo fuga quam facilis eaque?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum at odio nemo facilis officiis, hic <br>voluptatibus beatae alias eveniet, corrupti, accusantium voluptas quidem praesentium omnis qui earum consequuntur repellat Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquid dolorem asperiores temporibus eaque, corrupti voluptates omnis pariatur perspiciatis, laborum beatae esse inventore unde dolbr
+            <br>ore soluta itaque sunt ut quo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ex animi consequuntur veritatis laborum, facilis fugit eos sint maxime quidem ad ducimus molestiae temporibus enim, accusamus magni fuga officiis repudiandae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quam dolore fuga at ipsum? Consequatur enim, ut doloribus, natus mollitia <br>quasi recusandae saepe delectus qui eos soluta non nam <exercitationem class="lo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti eius dicta deleniti minima nam dolorum nulla quos. Voluptate optio id odio laborum, voluptates culpa eius aspernatur ullam! Temporibus, <laborum class="lo"></laborum></exercitationem></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus facere laboriosam tempora adipisci non soluta officiis rem dicta vel quasi amet quisquam voluptatum, accusantium aperiam odio quae earum est? Ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, incidunt consequatur odit tenetur suscipit optio. Perspiciatis aspernatur totam, necessitatibus aut enim omnis nesciunt repellendus illo placeat ratione officiis perferendis incidunt. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti consectetur, dolore perferendis dolorem et sapiente atque, voluptate tempore est officiis ipsa ducimus cum ex molestias repellat. Nam laborum incidunt perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laudantium soluta illo cumque qui alias tempore animi reiciendis praesentium? Error assumenda praesentium beatae quo incidunt consequatur dicta ratione vero illum. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos unde doloribus omnis vitae id. Iusto praesentium maiores soluta est, sequi non minima quibusdam illo recusandae atque, minus consectetur explicabo labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tempore, ex sapiente corporis sint exercitationem corrupti quasi, tempora deleniti eius unde est, repellat in consequuntur nostrum maiores placeat facere ad?</p>
+</body>
+</html>
