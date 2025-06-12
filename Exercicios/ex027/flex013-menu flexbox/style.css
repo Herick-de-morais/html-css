@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    background-color: rgb(95, 97, 97);
+    background-color: rgb(134, 131, 131);
     color: white;
     padding: 10px;
 
@@ -26,12 +26,13 @@ header{
 }
 
 header>h1{
-    border: 1px dotted black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgb(86, 84, 84) ;
 }
 
 header>nav{
-    border: 1px dotted black;
+    
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
@@ -45,12 +46,13 @@ nav>a{
     border-radius: 8px;
     text-decoration: none;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav>a:hover{
     background-color: aliceblue;
     color: rgb(47, 43, 43) ;
-    transition:  background-color 1s;
+    transition:  background-color 0.7s;
 }
 
 main{
