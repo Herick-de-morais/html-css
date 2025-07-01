@@ -1,0 +1,52 @@
+
+
+.container {
+    display: grid;
+    grid-template-rows: 80px 40px 400px 30px   ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+.caixa1{
+    font-family: kerning ;
+    background-color: aquamarine;
+    grid-area: 1/1/2/5;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(52, 41, 52);
+    
+}
+
+.caixa2{
+    font-family: kerning ;
+    background-color: darkcyan;
+    grid-area: 2/1/3/5;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
+    font-size: 1.5em;
+}
+
+.caixa3{
+    font-family: kerning ;
+    background-color: darkslateblue;
+    grid-area: 3/1/4/4;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(234, 195, 234);
+    
+}
+
+
+.caixa4{
+    background-color: cornflowerblue;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(206, 255, 202);
+    
+    grid-area: 3/4/4/5;
+}
+
+.caixa5{
+    background-color: darkgray;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(236, 255, 192);;
+    font-size: 1.5em;
+    grid-area: 4/1/5/5;
+}
